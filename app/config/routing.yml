@@ -1,3 +1,7 @@
+insead_gamebook:
+    resource: "@INSEADGamebookBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
