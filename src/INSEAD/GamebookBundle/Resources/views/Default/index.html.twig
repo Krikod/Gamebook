@@ -1,1 +1,5 @@
-Hello World!
+{% extends 'base.html.twig' %}
+
+{% block body %}
+Welcome! Choose your own adventure and start reading our first e-gamebook, <a href="{{ path('insead_gamebook_intro') }}">The Red Letter</a> (Short Story).
+{% endblock %}

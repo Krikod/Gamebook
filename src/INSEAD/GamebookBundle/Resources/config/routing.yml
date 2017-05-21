@@ -2,10 +2,42 @@ insead_gamebook_homepage:
     path:     /
     defaults: { _controller: INSEADGamebookBundle:Default:index }
 
+insead_gamebook_intro:
+    path:     /intro
+    defaults: { _controller: INSEADGamebookBundle:Default:intro}
+
 insead_gamebook_chap_1:
     path:     /chap-1
     defaults: { _controller: INSEADGamebookBundle:Default:chap_1 }
 
+insead_gamebook_chap_2:
+    path:     /chap-2
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_2 }
+
 insead_gamebook_chap_3:
     path:     /chap-3
     defaults: { _controller: INSEADGamebookBundle:Default:chap_3 }
+
+insead_gamebook_chap_4:
+    path:     /chap-4
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_4 }
+
+insead_gamebook_chap_5:
+    path:     /chap-5
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_5 }
+
+insead_gamebook_chap_6:
+    path:     /chap-6
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_6 }
+
+insead_gamebook_chap_7:
+    path:     /chap-7
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_7 }
+
+insead_gamebook_chap_8:
+    path:     /chap-8
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_8 }
+
+insead_gamebook_chap_9:
+    path:     /chap-9
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_9 }
