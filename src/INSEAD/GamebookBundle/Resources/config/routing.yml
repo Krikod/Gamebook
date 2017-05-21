@@ -1,3 +1,11 @@
 insead_gamebook_homepage:
     path:     /
     defaults: { _controller: INSEADGamebookBundle:Default:index }
+
+insead_gamebook_chap_1:
+    path:     /chap-1
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_1 }
+
+insead_gamebook_chap_3:
+    path:     /chap-3
+    defaults: { _controller: INSEADGamebookBundle:Default:chap_3 }
